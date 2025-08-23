@@ -1,6 +1,7 @@
 package com.bibliotecadegames.dslist_java.dto;
 
 import com.bibliotecadegames.dslist_java.entities.Game;
+import com.bibliotecadegames.dslist_java.projections.GameMinProjection;
 
 public class GameMinDTO {
 	
@@ -19,6 +20,14 @@ public class GameMinDTO {
 		year = entity.getYear();
 		imgUrl = entity.getImgUrl();
 		shortDescription = entity.getShortDescription();
+	}
+	
+	public GameMinDTO(GameMinProjection projection) { // Copia os dados da classe Game
+		id = projection.getId();
+		title = projection.getTitle();
+		year = projection.getYear();
+		imgUrl = projection.getImgUrl();
+		shortDescription = projection.getShortDescription();
 	}
 
 	public Long getId() {
