@@ -14,11 +14,14 @@ Obs: Na parte de hospedagem em um servidor, apenas acompanhei o procedimento:
 ## Como foi desenvolvido:
 
 <img width="600" height="400" alt="Captura de tela 2025-08-24 121620" src="https://github.com/user-attachments/assets/b287e654-2803-4bd3-ba76-0122c51e2ecf" />
+
 <img width="600" height="400" alt="Captura de tela 2025-08-24 121924" src="https://github.com/user-attachments/assets/6ab79c0a-9e70-4111-97d6-8e469f06d0a7" />
+
 ## Responsabilidades:
-  Controladores: Respondem à interações dos usuários (requisições)
-  Camada de serviço: Realiza as operações de negócio
-  Camada de acesso a dados: Realiza operações de acesso ao banco de dados
+
+  Controladores: Respondem à interações dos usuários (requisições) <br>
+  Camada de serviço: Realiza as operações de negócio <br>
+  Camada de acesso a dados: Realiza operações de acesso ao banco de dados <br>
 
 ## Funcionando:
 
